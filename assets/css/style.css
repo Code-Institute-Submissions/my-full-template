@@ -1,0 +1,109 @@
+html,body {
+    height: 100%;
+    width: 100%;
+    color: #000000;
+}
+
+.navbar {
+    background-color: #000000;
+    padding: 1% 0;
+    font-size: 1.2em;
+    margin-bottom: 0;
+    border-color: #000000;
+}
+
+.navbar-default .navbar-nav li a {
+color: 	#C0C0C0
+}
+
+.navbar-default .navbar-nav li a:hover {
+color: 	#ffbb33;
+}
+
+#home {
+   background: url(https://i.imgur.com/CaKouig.jpg) no-repeat center center fixed;
+   display: table;
+   height: 90%;
+   position: relative; 
+   width: 100%;
+   background-size: cover;
+}
+
+.landing-text {
+    display: table-cell;
+    text-align: center;
+    vertical-align: middle;
+    color: #ffbb33;
+    font-weight: 300%;
+}
+
+
+.landing-text h1 {
+    font-weight: 700;
+    
+}
+
+.padding {
+    padding: 60px 0;
+}
+
+.padding img {
+    width: 80%;
+}
+
+.order-online  {
+    padding-bottom: 25px;
+    text-align: center;
+    vertical-align: middle;
+    color: #000000;
+    font-weight: 300%;
+}
+
+.coffee-row {
+    margin-left: 35px;
+    text-align: center;
+    vertical-align: middle;
+}
+
+.testimonials {
+    padding: 40px 0;
+        color: #434343;
+    text-align: center;
+}
+
+.inner {
+    max-width: 1200px;
+    margin: auto;
+    overflow: hidden;
+    padding: 0 20px;
+}
+
+.border { 
+    width: 160px;
+    height: 5px;
+    background: #ffbb33;
+    margin: 26px auto;
+}
+
+.row {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.col {
+    flex: 33.33%;
+    max-width: 33.33%;
+    box-sizing: border-box;
+    padding: 15px;
+}
+
+.testimonial {
+    padding: 30px;
+}
+
+.testimonial img {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+}
