@@ -81,7 +81,7 @@ color: 	#ffbb33;
 .border { 
     width: 160px;
     height: 5px;
-    background: #ffbb33;
+    background: #000000;
     margin: 26px auto;
 }
 
@@ -102,8 +102,19 @@ color: 	#ffbb33;
     padding: 30px;
 }
 
+
 .testimonial img {
     width: 100px;
     height: 100px;
     border-radius: 50%;
+}
+.name {
+    font-size: 20px;
+    text-transform: uppercase;
+    margin: 20px 0;
+}
+
+.stars {
+    color:#ffbb33;
+    margin: 20px;
 }
