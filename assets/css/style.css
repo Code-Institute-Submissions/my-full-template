@@ -2,6 +2,7 @@ html,body {
     height: 100%;
     width: 100%;
     color: #000000;
+    position: absolute;
 }
 
 .navbar {
@@ -89,6 +90,8 @@ color: 	#ffbb33;
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
+    margin-left: 10px;
+    margin-right: 10px;
 }
 
 .col {
@@ -96,6 +99,7 @@ color: 	#ffbb33;
     max-width: 33.33%;
     box-sizing: border-box;
     padding: 15px;
+    margin: 5px 5px;
 }
 
 .testimonial {
@@ -124,20 +128,49 @@ footer {
     padding: 20px 0;
 }
 
-.footer-container {
-    margin: auto;
-    display: flex;
-    padding: 0 400px;
-    justify-content: center;
-    align-items: center;
-}
+
 
 a {
     color: #fff;
     font-size: 20px;
+    text-align: center;
     
 }
 
 a:hover {
     color: #ffbb33;
 }
+
+.text-center {
+ margin-top: 10px;
+ text-align: center;
+}
+
+.text-center p {
+    padding: 0 140px;
+}
+
+img {
+    width: 50%;
+}
+.rounded mx-auto d-block{
+    background-position: center;
+}
+#innerWrapper {
+    text-align: center;
+
+}
+
+.our-story {
+    text-align: center;
+}
+@media only screen and (max-width: 600px) {
+  
+body {
+    width: auto;
+}
+
+
+
+}
+
