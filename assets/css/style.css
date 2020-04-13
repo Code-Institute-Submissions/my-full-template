@@ -28,7 +28,7 @@ color: 	#ffbb33;
 }
 /* ---- Main Page Landing Image ---- */
 #home {
-   background: url(https://i.imgur.com/CaKouig.jpg) no-repeat center center fixed;
+   background: url("../imgs/MainImageHomepage.jpg") no-repeat center center fixed;
    display: table;
    height: 90%;
    position: relative; 
@@ -178,6 +178,7 @@ a:hover {
     text-align: center;
 }
 
+
 /* ---- Meet The Team Section ---- */
 
 .team-members {
@@ -304,6 +305,14 @@ a:hover {
     opacity: 10;
 }
 
+.big-text {
+    font-size: 18px;
+}
+
+white-text {
+    color: #fff;
+}
+
 /* ---- Coffee Text and Images ---- */
 
 .coffee-text {
@@ -357,11 +366,18 @@ a:hover {
     color:#ffbb33;
 }
 
+.footer-col {
+    flex: 0;
+    box-sizing: border-box;
+    padding: 15px;
+    margin: 5px 5px;
+}
+
 /* ---- Form Section ---- */
 
 .contact-section {
     height: 600px;
-    background: url(https://images.unsplash.com/photo-1525445842399-d8a6bec24be2?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=750&q=80);
+    background: url("../imgs/coffeebeansformimage.jpg");
     background-size: cover;
 }
 
@@ -429,7 +445,6 @@ a:hover {
 }
 
 .background-img{
-   background: url(https://images.unsplash.com/photo-1567018490729-71964c7a9b5d?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1050&q=80) no-repeat center center fixed;
    display: table;
    height: 30%;
    position: relative; 
@@ -464,6 +479,16 @@ a:hover {
     opacity: 10;
 }
 
+
+/* ---- Footer ---- */
+
+.circle { 
+    width: 50px;
+    height: 50px; 
+    padding: 15px;
+    background-color: grey;
+    }
+
 /* ---- Media Queries ---- */
 @media only screen and (max-width: 600px) {
   
@@ -474,6 +499,16 @@ body {
 .details {
     margin-top: 40px;
     padding-left: 13%;
+}
+
+.gap100 {
+    margin-top: 20px;
+    padding: 0px;
+}
+
+.gap50 {
+    margin-top: 0;
+    padding: 0;
 }
 
 }

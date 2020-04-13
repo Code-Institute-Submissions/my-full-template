@@ -26,7 +26,7 @@
             </div>
             <div class="collapse navbar-collapse" id="navbar-collapse-main">
                 <ul class="nav navbar-nav navbar-right">
-                    <li><a href="home.html">Home</a></li>
+                    <li><a href="index.html">Home</a></li>
                     <li><a href="ourstory.html">Our Story</a></li>
                     <li><a href="ourcoffee.html">Our Coffee</a></li>
                     <li><a href="findus.html">Find Us</a></li>
@@ -57,33 +57,35 @@
         </div>
         </section>
         <!--Contact Form-->
-        <section class="contact-section"> 
-            <div class="contact-form">
-                    <h1>Contact Us</h1>
-                    <div class="txtb"> 
-                        <label>Full Name:</label>
-                        <input type="text" name="" value="" placeholder="Enter Your Name">
-                    </div>
-                    <div class="txtb"> 
-                        <label>Email Address:</label>
-                        <input type="email" name="" value="" placeholder="Enter Your Email Address">
-                    </div>
-                    <div class="txtb"> 
-                        <label>Phone Number:</label>
-                        <input type="text" name="" value="" placeholder="Enter Your Phone Number">
-                    </div>
-                    <div class="txtb"> 
-                        <label>Message:</label>
-                        <textarea></textarea>
-                    </div>
-                    <a class="btn my-btn">Send</a>
-            </div> 
+        <section class="contact-section">
+                <div class="contact-form">
+                        <h1>Contact Us</h1>
+                        <form>
+                        <div class="txtb"> 
+                            <label>Full Name:</label>
+                            <input type="text" name="" value="" placeholder="Enter Your Name" required/>
+                        </div>
+                        <div class="txtb"> 
+                            <label>Email Address:</label>
+                            <input type="email" name="" value="" placeholder="Enter Your Email Address" required/>
+                        </div>
+                        <div class="txtb"> 
+                            <label>Phone Number:</label>
+                            <input type="text" name="" value="" placeholder="Enter Your Phone Number"/>
+                        </div>
+                        <div class="txtb"> 
+                            <label>Message:</label>
+                            <textarea></textarea>
+                        </div>
+                         <input id="btnSubmit" class="my-btn" type="submit" />
+                        </form>
+                </div>       
         </section>
         <!--Footer Section-->
         <footer>
             <div class="page-footer">
                 <div class="footer-container">
-                    <div class="col">
+                    <div class="footer-col text-center">
                         <a href="#">
                             <i class="fa fa-facebook-f"></i>
                         </a>
@@ -93,6 +95,7 @@
                         <a href="#">
                             <i class="fa fa-instagram"></i>
                         </a>
+                        <p style="color:white; padding-top: 8px;">Copyright 2020</p>
                     </div>
                 </div>
             </div>
