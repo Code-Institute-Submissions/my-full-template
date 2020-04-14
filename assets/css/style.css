@@ -21,6 +21,10 @@ color: 	#C0C0C0
 color: 	#ffbb33;
 }
 
+.navbar-default .navbar-brand {
+    color: 	#ffbb33;
+}
+
 .responsive {
     height: auto;
     width: auto;
@@ -157,6 +161,12 @@ a:hover {
 
 /* ---- Our Story Image & Text ---- */
 
+.image-container {
+  display: flex;
+  justify-content: center;
+  text-align: center;
+}
+
 .text-center {
  margin-top: 10px;
  text-align: center;
@@ -177,6 +187,10 @@ a:hover {
 .our-story {
     text-align: center;
 }
+
+.img-fluid {
+    max-height: 100%;
+  }
 
 
 /* ---- Meet The Team Section ---- */
@@ -478,6 +492,10 @@ white-text {
     justify-content: center;
 }
 
+.my-container {
+    padding-right: 0px;
+    padding-left: 0px;
+}
 .transparent-underlay {
     background-color: rgba(0,0,0,0.9);
     opacity: 10;
