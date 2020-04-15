@@ -4,6 +4,31 @@ html,body {
     color: #000000;
     position: absolute;
 }
+
+
+div {
+    border:0px solid red;
+}
+
+.container-section {
+    border:0px solid blue; 
+}
+
+.container1 {
+    border:1px solid blue;  
+}
+
+.container2 {
+    border:1px solid yellow;  
+}
+
+.container3 {
+    border:1px solid pink;  
+}
+
+.container5 {
+    border:1px solid green;  
+}
 /* ---- Navbar ---- */
 .navbar {
     background-color: #000000;
@@ -39,6 +64,15 @@ color: 	#ffbb33;
    width: 100%;
    background-size: cover;
 }
+
+.bg-img {
+    background: url("../imgs/MainImageHomepage.jpg") no-repeat center center fixed;
+    display: table;
+    height: 100%;
+    position: relative; 
+    width: 100%;
+    background-size: cover;
+ }
 
 .landing-text {
     display: table-cell;
@@ -111,13 +145,11 @@ color: 	#ffbb33;
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
-    margin-left: 10px;
-    margin-right: 10px;
+    margin-left: 0px;
+    margin-right: 0px;
 }
 
 .col {
-    flex: 33.33%;
-    max-width: 33.33%;
     box-sizing: border-box;
     padding: 15px;
     margin: 5px 5px;
@@ -146,7 +178,7 @@ color: 	#ffbb33;
 
 footer {
     background-color: #000000;
-    padding: 20px 0;
+    
 }
 
 a {
@@ -362,7 +394,9 @@ white-text {
 }
 
 /* ---- Map Section ---- */
-
+.map-row {
+    flex-wrap: nowrap;
+}
 .map-section {
     margin-top: 50px;
     margin-bottom: 50px;
@@ -504,12 +538,14 @@ white-text {
 
 /* ---- Footer ---- */
 
-.circle { 
-    width: 50px;
-    height: 50px; 
-    padding: 15px;
-    background-color: grey;
-    }
+.footer-container { 
+    height: 100px; 
+}
+
+.padding-footer {
+    padding-top: 30px;
+    justify-content: center;
+}
 
 /* ---- Media Queries ---- */
 @media only screen and (max-width: 600px) {
