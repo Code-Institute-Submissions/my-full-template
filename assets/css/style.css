@@ -408,6 +408,11 @@ white-text {
     margin-top: 140px;
 }
 
+.my-position {
+    margin-top: 120px;
+    margin-bottom: 70px;
+}
+
 .details-icons {
     font-size:25px;
     margin-right: 50px;
@@ -556,7 +561,7 @@ body {
 
 .details {
     margin-top: 40px;
-    padding-left: 13%;
+    margin-right: 0px;
 }
 
 .gap100 {
@@ -567,6 +572,12 @@ body {
 .gap50 {
     margin-top: 0;
     padding: 0;
+}
+
+.my-position {
+    margin-top: 0px;
+    margin-bottom: 0px;
+    text-align: center;
 }
 
 }
