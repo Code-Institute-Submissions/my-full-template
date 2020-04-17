@@ -46,6 +46,10 @@ color: 	#C0C0C0
 color: 	#ffbb33;
 }
 
+.navbar-default .navbar-nav li .current {
+    color: #ffbb33;
+}
+
 .navbar-default .navbar-brand {
     color: 	#ffbb33;
 }
@@ -552,6 +556,15 @@ white-text {
     justify-content: center;
 }
 
+.copyright {
+    padding-left: 10px
+}
+
+i {
+    margin-left: 2px;
+    margin-right: 2px;
+}
+
 /* ---- Media Queries ---- */
 @media only screen and (max-width: 600px) {
   
@@ -578,6 +591,15 @@ body {
     margin-top: 0px;
     margin-bottom: 0px;
     text-align: center;
+}
+
+.col-xs-12 {
+    justify-content: center;
+    text-align: center;
+}
+
+zoom-image {
+    margin-top: 10px;
 }
 
 }
