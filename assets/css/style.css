@@ -7,28 +7,14 @@ html,body {
 
 
 div {
-    border:0px solid red;
+    border:0px;
 }
 
 .container-section {
-    border:0px solid blue; 
+    border:0px; 
 }
 
-.container1 {
-    border:1px solid blue;  
-}
 
-.container2 {
-    border:1px solid yellow;  
-}
-
-.container3 {
-    border:1px solid pink;  
-}
-
-.container5 {
-    border:1px solid green;  
-}
 /* ---- Navbar ---- */
 .navbar {
     background-color: #000000;
@@ -83,7 +69,7 @@ color: 	#ffbb33;
     text-align: center;
     vertical-align: middle;
     color: #ffbb33;
-    font-weight: 300%;
+    font-weight: 300;
 }
 
 .landing-text h1 {
@@ -114,7 +100,7 @@ color: 	#ffbb33;
     text-align: center;
     vertical-align: middle;
     color: #000000;
-    font-weight: 300%;
+    font-weight: 300;
 }
 
 .coffee-row {
@@ -334,7 +320,7 @@ a:hover {
     text-align: center;
     vertical-align: middle;
     color: #ffbb33;
-    font-weight: 300%;
+    font-weight: 300;
 }
 
 .gap50 {
@@ -520,7 +506,7 @@ white-text {
     text-align: center;
     vertical-align: middle;
     color: #ffbb33;
-    font-weight: 300%;
+    font-weight: 300;
 }
 
 .gap50 {
