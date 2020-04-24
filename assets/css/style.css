@@ -368,6 +368,19 @@ white-text {
     margin-bottom: 80px;
 }
 
+.beans-img2 {
+    background: url("../imgs/beans2.jpg");
+    width: 400px;
+    height:331px;
+    transition: transform .2s; 
+    padding-left: 10px;
+}
+
+.beans-img2:hover {
+  transform: scale(1.2);
+
+<img src="assets/imgs/beans2.jpg" class="img-fluid img-zoom" alt="coffee bag" width="70%" >
+
 #zoom-image {
      animation-name: hero-zoom;
   animation-duration: 5s;
@@ -573,6 +586,7 @@ body {
     padding: 0;
 }
 
+
 .my-position {
     margin-top: 0px;
     margin-bottom: 0px;
@@ -583,6 +597,7 @@ body {
     justify-content: center;
     text-align: center;
 }
+
 
 zoom-image {
     margin-top: 10px;
