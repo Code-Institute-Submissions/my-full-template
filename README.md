@@ -51,26 +51,27 @@ In order to assure that the webiste performs efficiently and the features carry 
     iii.       Try to submit the form with an invalid email address and verify that a relevant error message appears
 
 Please find a summary of how the site was tested and the results in the table below: 
-![Test Results](https://a1e6ecca-b686-484c-9452-f4ed99dc9f68.ws-eu01.gitpod.io/#/workspace/my-full-template/imgs/testtable.jpg "Test Table")    
+![Test Results](https://github.com/Jadeosull93/my-full-template/assets/imgs/testtable.jpg "Test Table")    
 # Deployment
 I used GitPod to develop my project, this is where I wrote my code and ran it to assure it performed. On completion of each section I committed the work to GitHub. From the Github platform, I deployed the project to a hosting platform.  The project is hosted on Github Pages; in order to make the project go live, I had to insure I had the correct settings employed in Github. There is a Github Pages section in the repository settings which needed to be activated. Once activated it advised me that my site was available at the following address: [https://jadeosull93.github.io/my-full-template/](https://jadeosull93.github.io/my-full-template/) - it is critical to note that the homepage needs to be identified as index.html for Gitpages to find it and publish the site. 
-###### When deploying Yellow Door Coffee to Github Pages the steps below need to be followed: 
-1.Navigate to 'Jadeosull93/my-full-template' 
-2.On the naviagtion bar at the top click 'settings'
-3.Scroll to the GitHub Pages section
-4.Select 'Master Branch' from the 'Source' dropdown menu
-5.Click confirm my selection
-6.Yellow Door Coffee should now be live on Github Pages
+##### When deploying Yellow Door Coffee to Github Pages the steps below need to be followed: 
+1. Navigate to 'Jadeosull93/my-full-template' 
+2. On the naviagtion bar at the top click 'settings'
+3. Scroll to the GitHub Pages section
+4. Select 'Master Branch' from the 'Source' dropdown menu
+5. Click confirm my selection
+6. Yellow Door Coffee should now be live on Github Pages
 
-###### In order to run Yellow Door Coffee locally the following steps need to be followed:
-1.Navigate to 'Jadeosull93/my-full-template'
-2.Click the 'Clone or Download' button
-3.Copy the url in the dropdown box
-4.Using your IDE of choice open up your preferred terminal
-5.Choose your desired file location
-6.Copy and paste the following code into your terminal to clone Yellow Door Coffee
+#### In order to run Yellow Door Coffee locally the following steps need to be followed:
+1. Navigate to 'Jadeosull93/my-full-template'
+2. Click the 'Clone or Download' button
+3. Copy the url in the dropdown box
+4. Using your IDE of choice open up your preferred terminal
+5. Choose your desired file location
+6. Copy and paste the following code into your terminal to clone Yellow Door Coffee
 git clone https://github.com/Jadeosull93/my-full-template.git
 
+##Additional Deployment
 In addition to Github and Gitpod, I chose to run my code locally on an internal IP address within my home using an Apache web server running on Ubuntu. I used Windows Visual Studios to write the code and FireZilla to deploy the site to the internal webserver. This was benefical for testing code on different devices throughout the house without having to “push” the code each time I made a change.
 
 # Credits
@@ -80,7 +81,7 @@ The text for the Our Coffee page has been extracted and edited from the followin
 *	[https://espressocoffeeguide.com/gourmet-coffee/arabian-and-african-coffees/uganda-coffee/]
 *	[https://www.coffeestrong.org/ugandan-coffee/]
 ## Media
-*	The photos used in this site were obtained from  unsplash.com which is a website of readily available free to use images 
-##Acknowledgements
-*	I received inspiration for this project from serveral different coffee websites inclusing somacoffee.ie, rift.ie and also from visiting cafes based in Limerick such as Rift, Duo and Canteen. I would also like to give a special thanks to my mentor Precious who was always happy to give excellent feedback and guide me in the right direction throughout the duration of the project. I would also like to thank my father John O' Sullivan, who gave up his time to give me guidence, support and encouragement. 
+The photos used in this site were obtained from  [www.unsplash.com] which is a website of readily available free to use images 
+## Acknowledgements
+I received inspiration for this project from serveral different coffee websites inclusing somacoffee.ie, rift.ie and also from visiting cafes based in Limerick such as Rift, Duo and Canteen. I would also like to give a special thanks to my mentor Precious who was always happy to give excellent feedback and guide me in the right direction throughout the duration of the project. I would also like to thank my father John O' Sullivan, who gave up his time to give me guidence, support and encouragement. 
 
