@@ -1,10 +1,10 @@
+/* ---- Body ---- */
 html,body {
     height: 100%;
     width: 100%;
     color: #000000;
     position: absolute;
 }
-
 
 div {
     border:0px;
@@ -13,7 +13,6 @@ div {
 .container-section {
     border:0px; 
 }
-
 
 /* ---- Navbar ---- */
 .navbar {
@@ -45,6 +44,7 @@ color: 	#ffbb33;
     width: auto;
    
 }
+
 /* ---- Main Page Landing Image ---- */
 #home {
    background: url("../imgs/MainImageHomepage.jpg") no-repeat center center fixed;
@@ -74,12 +74,10 @@ color: 	#ffbb33;
 
 .landing-text h1 {
     font-weight: 700;
-    
 }
 
 .padding {
-    padding: 20px 0;
-    
+    padding: 20px 0; 
 }
 
 .padding img {
@@ -94,7 +92,6 @@ color: 	#ffbb33;
 }
 
 /* ---- Order Online Section ---- */
-
 .order-online  {
     padding-bottom: 25px;
     text-align: center;
@@ -110,7 +107,6 @@ color: 	#ffbb33;
 }
 
 /* ---- Customer Review Section ---- */
-
 .testimonials {
     padding: 40px 0;
         color: #434343;
@@ -214,9 +210,7 @@ a:hover {
     max-height: 100%;
   }
 
-
 /* ---- Meet The Team Section ---- */
-
 .team-members {
     padding-top: 5%;
 }
@@ -336,10 +330,6 @@ a:hover {
     justify-content: center;
 }
 
-.ourstoryimg {
-    justify-content: center;
-}
-
 .transparent-underlay {
     background-color: rgba(0,0,0,0.9);
     opacity: 10;
@@ -354,11 +344,18 @@ white-text {
 }
 
 /* ---- Coffee Text and Images ---- */
-
 .coffee-text {
     color: rgb(221, 215, 215);
     justify-content: center;
     text-align: center;
+}
+
+.coffee-text:hover {
+    color:#ffbb33
+}
+
+p:hover {
+    color: #ffbb33
 }
 
 .coffee-text-heading {
@@ -374,6 +371,7 @@ white-text {
   animation-fill-mode:forwards;
 
 }
+
 
 @keyframes hero-zoom {
   from{transform: scale(1)
@@ -405,8 +403,7 @@ white-text {
 
 .details-icons {
     font-size:25px;
-    margin-right: 50px;
-    
+    margin-right: 50px; 
 }
 
 .details-icons:hover {
@@ -421,7 +418,6 @@ white-text {
 }
 
 /* ---- Form Section ---- */
-
 .contact-section {
     height: 600px;
     background: url("../imgs/coffeebeansformimage.jpg");
@@ -509,9 +505,14 @@ white-text {
     font-weight: 300;
 }
 
+.gap30 {
+    padding: 40px 0;
+}
+
 .gap50 {
     padding: 70px 0;
 }
+
 .gap100 {
     padding: 70px 0;
     margin-top: 20px;
@@ -525,14 +526,13 @@ white-text {
     padding-right: 0px;
     padding-left: 0px;
 }
+
 .transparent-underlay {
     background-color: rgba(0,0,0,0.9);
     opacity: 10;
 }
 
-
 /* ---- Footer ---- */
-
 .footer-container { 
     height: 100px; 
 }
@@ -559,7 +559,7 @@ body {
 }
 
 .mobile-padding {
-    margin-top: 80px;
+    margin-top: 120px;
 }
 
 
@@ -578,32 +578,26 @@ body {
     padding: 0;
 }
 
+.gap30 {
+    margin-top: 0;
+    padding: 0;
+}
+
 
 .my-position {
     margin-top: 0px;
     margin-bottom: 0px;
-    text-align: center;
+    text-align: justify;
 }
 
 .col-xs-12 {
     justify-content: center;
-    text-align: center;
 }
-
 
 zoom-image {
     margin-top: 10px;
 }
-
-.beans-img2 {
-    background: url("../imgs/beans2.jpg");
-    width: 300px;
-    height:auto;
-    transition: transform .2s; 
-   
 }
 
-.beans-img2:hover {
-  transform: none;
 
-}
+
