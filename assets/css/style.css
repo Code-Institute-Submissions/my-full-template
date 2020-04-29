@@ -347,10 +347,7 @@ white-text {
     color: rgb(221, 215, 215);
     justify-content: center;
     text-align: center;
-}
-
-.coffee-text:hover {
-    color:#ffbb33
+    font-size: 14px;
 }
 
 .coffee-text-heading {
@@ -594,5 +591,11 @@ zoom-image {
 }
 }
 
+@media only screen and (min-width:961px) {
+.gap30 {
+    margin-top: 0;
+    padding: 0;
+}
 
+}
 

@@ -10,7 +10,8 @@ The website was designed with customers and potential customers in mind. The web
 -	As a user of the site, I want to see pictures from the cafe, so I get a sense of what to expect and can make a judgmenet regarding if its somewhere i’d like to go or not.
 -	As a website user, I want to see customer feedback, to see if it is inline with what the coffee shop is promising.
 
-Mock ups for the website can be found in the following folder on Github: Coffee/Mockups
+### Mock Ups
+I designed the mock ups for the site using Figma. Mock ups for the website can be found in the following folder on Github:(https://github.com/Jadeosull93/my-full-template/blob/4d900eab99a37177798424604b32dbef81d0d404/mockups)
 
 ## Features
 Please find a list of features which are live on the website below: 
@@ -51,7 +52,7 @@ In order to assure that the webiste performs efficiently and the features carry 
     3. Try to submit the form with an invalid email address and verify that a relevant error message appears
 
 Please find a summary of how the site was tested and the results in the table below: 
-![Test Results](testtable.jpg)    
+![Test Results](/TestTable/testtable.jpg)    
 ## Deployment
 I used GitPod to develop my project, this is where I wrote my code and ran it to assure it performed. On completion of each section I committed the work to GitHub. From the Github platform, I deployed the project to a hosting platform.  The project is hosted on Github Pages; in order to make the project go live, I had to insure I had the correct settings employed in Github. There is a Github Pages section in the repository settings which needed to be activated. Once activated it advised me that my site was available at the following address: [https://jadeosull93.github.io/my-full-template/](https://jadeosull93.github.io/my-full-template/) - it is critical to note that the homepage needs to be identified as index.html for Gitpages to find it and publish the site. 
 ##### When deploying Yellow Door Coffee to Github Pages the steps below need to be followed: 
@@ -84,5 +85,5 @@ The text for the Our Coffee page has been extracted and edited from the followin
 ### Media
 The photos used in this site were obtained from  www.unsplash.com which is a website of readily available free to use images 
 ### Acknowledgements
-I received inspiration for this project from serveral different coffee websites inclusing somacoffee.ie, rift.ie and also from visiting cafes based in Limerick such as Rift, Duo and Canteen. I would also like to give a special thanks to my mentor Precious who was always happy to give excellent feedback and guide me in the right direction throughout the duration of the project. I would also like to thank my father John O' Sullivan, who gave up his time to give me guidence, support and encouragement. 
+I received inspiration for this project from serveral different coffee websites inclusing somacoffee.ie, rift.ie and also from visiting cafes based in Limerick such as Rift, Duo and Canteen. I would also like to give a special thanks to my mentor [Precious Ijege](https://github.com/precious-ijege/) who was always happy to give excellent feedback and guide me in the right direction throughout the duration of the project. I would also like to thank my father [John O' Sullivan](https://www.linkedin.com/in/john-o-sullivan-15b17a34/), who gave up his time to give me guidence, support and encouragement. 
 
