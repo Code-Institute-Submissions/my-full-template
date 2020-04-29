@@ -11,7 +11,7 @@ The website was designed with customers and potential customers in mind. The web
 -	As a website user, I want to see customer feedback, to see if it is inline with what the coffee shop is promising.
 
 ### Mock Ups
-I designed the mock ups for the site using Figma. Mock ups for the website can be found in the following folder on Github:(https://github.com/Jadeosull93/my-full-template/blob/4d900eab99a37177798424604b32dbef81d0d404/mockups)
+I designed the mock ups for the site using Figma. Mock ups for the website can be found in the following [folder](https://github.com/Jadeosull93/my-full-template/blob/4d900eab99a37177798424604b32dbef81d0d404/mockups)
 
 ## Features
 Please find a list of features which are live on the website below: 
