@@ -1,7 +1,7 @@
 # Yellow Door Coffee
 Yellow Door Coffee is a website for a speciality coffee shop in Limerick. The coffee shop is unique because it offers its customers a choice of four different blends of coffee from around the world. Yellow Door Coffee recognizes that individuals have unique tastes; we cater for these tastes by offering a range of flavor notes in our coffee. We actively encourage customers to explore the wide variety of different blends we have on offer, and the minimalist design of our shops uses splashes of yellow to brighten our customer’s day; this style and colour theme has also been incorporated into the website. 
 
-Here is a link to live website: [Yellow Door Coffee](https://jadeosull93.github.io/my-full-template/index.html)
+Here is a link to the live website: [Yellow Door Coffee](https://jadeosull93.github.io/my-full-template/index.html)
 ## UX
 The website was designed with customers and potential customers in mind. The website required clear navigation and ease of use; it needed to be informative and also visually engaging. The images used through-out the site are in-keeping with the style of the cafe and have been selected to give users some sense of the Yellow Door Coffee experience.
 -	As a website user, I want clear navigation that stands out so that I can quickly visit the section that interests me.
